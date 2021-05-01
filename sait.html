@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/keks_courses.svg">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/tasks.js"></script>
+    <title>CSS cat</title>
+</head>
+<body class="body">
+    <header class="header -background -center">
+        <div class="fix-conteiner -flex-center">
+            <a href="#h1" class="header__link -color-text -head">К заданию!</a>
+        </div>
+    </header>
+    <div class="fix-conteiner">
+        <main class="main">
+            <section class="section-info">
+                <h2 class="section-info__h2 -h1">В крации о CSS</h2>
+                <article class="article-info">
+                    <p class="article-info__p -background">CSS (Cascading Style Sheets) — язык таблиц стилей, который позволяет прикреплять стиль (например, шрифты и цвет) к структурированным документам (например, документам HTML и приложениям XML).</p>
+                    <a href="https://html5book.ru/osnovy-css/" class="article-info__link -color-text -button">Статья</a>
+                    <p class="article-info__p -background">Обычно CSS-стили используются для создания и изменения стиля элементов веб-страниц и пользовательских интерфейсов, написанных на языках HTML и XHTML, но также могут быть применены к любому виду XML-документа, в том числе XML, SVG и XUL.</p>
+                    <a href="http://htmlbook.ru/samcss" class="article-info__link -color-text -button">Статья</a>
+                    <p class="article-info__p -background">Отделяя стиль представления документов от содержимого документов, CSS упрощает создание веб-страниц и обслуживание сайтов.</p>
+                    <a href="https://skillbox.ru/media/code/chto_takoe_css/" class="article-info__link -color-text -button">Статья</a>
+                    <p class="article-info__p -background">CSS поддерживает таблицы стилей для конкретных носителей, поэтому авторы могут адаптировать представление своих документов к визуальным браузерам, слуховым устройствам, принтерам, брайлевским устройствам, карманным устройствам и т.д.</p>
+                    <a href="https://puzzleweb.ru/css/3_howto.php" class="article-info__link -color-text -button">Статья</a>
+                    <p class="article-info__p -background">Каскадные таблицы стилей описывают правила форматирования элементов с помощью свойств и допустимых значений этих свойств. Для каждого элемента можно использовать ограниченный набор свойств, остальные свойства не будут оказывать на него никакого влияния.</p>
+                    <a href="https://htmlweb.ru/css/styles.php" class="article-info__link -color-text -button">Статья</a>
+                </article>
+            </section>
+            <h1 class="main__h1 -h1" id="h1">Задание</h1>
+            <section class="section-task">
+                <h2>Размер</h2>
+                <div class="section-task__div -flex-row">
+                    <article class="article-task -background -flex-colum">
+                        <p class="article-task__p">Привет это Котэ он введёт тебя в удивительный мир CSS.
+                        Давай изменим его размер с помощью свойств width и height.<br><br>
+                        <span class="p__span">width</span> изменяет ширину объекта и измеряется в основном в пикселях(px) и процентах(%)<br>
+                        <span class="p__span">height</span> изменяет ширину объекта и измеряется тоже в пикселях(px) и процентах(%)<br><br>
+                        Задай ему значение ширина 490 пикселей, а высота 603 пикселя</p>
+                        <input class="article-task__input -input -color-input" type="text" disabled value=".class{">
+                        <input class="article-task__input -input -padding" type="text" id="width">
+                        <input class="article-task__input -input -padding" type="text" id="height">
+                        <input class="article-task__input -input -color-input" type="text" disabled value="}">
+                    </article>
+                    <article class="article-window -background">
+                        <div class="article-window__div -flex-center">
+                            <img src="img/keks_courses.svg" class="window-img" id="task1">
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="section-task">
+                <h2 class="section-task__h2">Движение объектов</h2>
+                <div class="section-task__div -flex-row">
+                    <article class="article-task -background -flex-colum">
+                        <p class="article-task__p">Котэ убежал его надо вернуть в центр. Для этого нам понадобятся команты <span class="p__span">top</span>, <span class="p__span">bottom</span>, <span class="p__span">left</span>, <span class="p__span">right</span>.<br><br>
+                        <span class="p__span">top</span>, <span class="p__span">bottom</span>, <span class="p__span">left</span>, <span class="p__span">right</span> измеряются в пикселях(px) и двигают объект в указанном направлении.<br><br>
+                        От верхнего края до центра 235 пикселей, а от левого 259</p>
+                        <input class="article-task__input -input -color-input" type="text" disabled value=".Объект">
+                        <input class="article-task__input -input -padding" type="text" id="top">
+                        <input class="article-task__input -input -padding" type="text" id="left">
+                        <input class="article-task__input -input -color-input" type="text" disabled value="}">
+                    </article>
+                    <article class="article-window -background">
+                        <div class="article-window__div">
+                            <img src="img/keks_courses.svg" class="window-img" id="task3">
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="section-task">
+                <h2 class="section-task__h2">Position</h2>
+                <div class="section-task__div -flex-row">
+                    <article class="article-task -background -flex-colum">
+                        <h3 class="article-task__h3">Absolute</h3>
+                        <p class="article-task__p">Теперь попытаемся вернуть Котэ с помощью <span class="p__span">position</span>.<br><br>
+                        <span class="p__span">position</span> задаёт свойства, как будет двигать объект в окне браузера. <span class="p__span">absolute</span> даёт свободу передвижения не зависимо от контейнера в котором находится.<br><br>
+                        Теперь Котэ убежал дальше на растояние от 2650 пиксилей до 2700 пикселей в высоту и на 650 пикселей влево</p>
+                        <input class="article-task__input -input -color-input" type="text" disabled value=".РодительскийОбъект{">
+                        <input class="article-task__input -input -padding" type="text" id="absolute">
+                        <input class="article-task__input -input -color-input" type="text" disabled value="}">
+                        <input class="article-task__input -input -color-input" type="text" disabled value=".class{">
+                        <input class="article-task__input -input -padding" type="text" id="top2">
+                        <input class="article-task__input -input -padding" type="text" id="left2">
+                        <input class="article-task__input -input -color-input" type="text" disabled value="}">
+                    </article>
+                    <article class="article-window -background">
+                        <div class="article-window__div">
+                            <img src="img/keks_courses.svg" class="window-img" id="task4">
+                        </div>
+                    </article>
+                </div>
+                <div class="section-task__div -flex-row -margin-top">
+                    <article class="article-task -background -flex-colum">
+                        <h3 class="article-task__h3">Relative</h3>
+                        <p class="article-task__p"><p class="article-task__p">Теперь попытаемся вернуть Котэ с помощью <span class="p__span">position</span>.<br><br>
+                        <span class="p__span">position</span> задаёт свойства, как будет двигать объект в окне браузера. <span class="p__span">relative</span> даёт свободу передвижения, но в зависимости от контейнера в котором находится.<br><br>
+                        В этот раз он убежал также как и впервый</p></p>
+                        <input class="article-task__input -input -color-input" type="text" disabled value=".РодительскийОбъект{">
+                        <input class="article-task__input -input -padding" type="text" id="relative">
+                        <input class="article-task__input -input -color-input" type="text" disabled value="}">
+                        <input class="article-task__input -input -padding" type="text" id="top3">
+                        <input class="article-task__input -input -padding" type="text" id="left3">
+                        <input class="article-task__input -input -color-input" type="text" disabled value="}">
+                    </article>
+                    <article class="article-window -background">
+                        <div class="article-window__div">
+                            <img src="img/keks_courses.svg" class="window-img" id="task5">
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="section-task">
+                <h2 class="section-task__h2">Цвет</h2>
+                <div class="section-task__div -flex-row">
+                    <article class="article-task -background -flex-colum">
+                        <p class="article-task__p">Покрасим имя Котэ для этого используюем <span class="p__span">color</span>.<br><br>
+                        <span class="p__span">Color</span> определяет цвет текста элемента. может задаваться как название цвета так и через #id.</p>
+                        <input class="article-task__input -input -color-input" type="text" disabled value=".class{">
+                        <input class="article-task__input -input -padding" type="text" id="color">
+                        <input class="article-task__input -input -color-input" type="text" disabled value="}">
+                    </article>
+                    <article class="article-window -background">
+                        <div class="article-window__div -flex-cat">
+                            <p class="window-p" id="task2">Котэ</p>
+                            <img src="img/keks_courses.svg" class="window-img -cat">
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="section-task">
+                <h2 class="section-task__h2">Задний фон</h2>
+                <div class="section-task__div -flex-row">
+                    <article class="article-task -background -flex-colum">
+                        <p class="article-task__p">Не плохо было бы залить задний фон с помощью <span class="p__span">background</span>.<br><br>
+                        <span class="p__span">Background</span> задаёт фоновые параметры блока.</p>
+                        <input class="article-task__input -input -color-input" type="text" disabled value=".class{">
+                        <input class="article-task__input -input -padding" type="text" id="back">
+                        <input class="article-task__input -input -color-input" type="text" disabled value="}">
+                    </article>
+                    <article class="article-window -background">
+                        <div class="article-window__div -flex-cat">
+                            <p class="window-p" id="task2">Котэ</p>
+                            <img src="img/keks_courses.svg" class="window-img -cat">
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="section-task">
+                <h2 class="section-task__h2">Границы</h2>
+                <div class="section-task__div -flex-row">
+                    <article class="article-task -background -flex-colum">
+                        <p class="article-task__p">Теперь добавим границы для красоты, с помощью border.<br><br>
+                        <span class="p__span">Border</span> задаёт границы блока и указывается через пробел с начало размер в пикселях, потом стиль, а в конце цвет.<br><br>
+                        Стили: <span class="p__span">dotted</span>, <span class="p__span">dashed</span>, <span class="p__span">solid</span>, <span class="p__span">double</span>, <span class="p__span">groove</span>, <span class="p__span">ridge</span>, <span class="p__span">inset</span>, <span class="p__span">outset</span>,
+                        </p>
+                        <input class="article-task__input -input -color-input" type="text" disabled value=".class{">
+                        <input class="article-task__input -input -padding" type="text" id="border">
+                        <input class="article-task__input -input -color-input" type="text" disabled value="}">
+                    </article>
+                    <article class="article-window -background">
+                        <div class="article-window__div -flex-cat">
+                            <p class="window-p">Котэ</p>
+                            <img src="img/keks_courses.svg" class="window-img -cat">
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <!-- <section class="section-forms -flex-colum -margin-top">
+                    <form action="" class="form-log -background -flex-colum">
+                    <h2 class="form-log__h2">Авторизация</h2>
+                    <label class="form-log__label" for="">Логин</label>
+                    <input class="form-log__input -input -margin" type="text">
+                    <label class="form-log__label" for="">Пароль</label>
+                    <input class="form-log__input -input -margin" type="text">
+                    <button class="form-log__button -button">Войти</button>
+                </form>
+                <h2>Соощайте об ошибках в этой форме</h2>
+                <form action="php/form.php" method="POST" class="form-send -background -flex-colum">
+                    <label class="form-send__label" for="">Контакты</label>
+                    <input class="form-send__input -input -margin" name="contact" type="text">
+                    <label class="form-send__label" for="">Сообщение</label>
+                    <textarea class="form-send__textarea -input -margin" name="text" cols="60" rows="10"></textarea>
+                    <button type="submit" class="form-send__button -button">Отправить</button>
+                </form>
+            </section> -->
+        </main>
+    </div>
+    <footer class="footer -background -margin-top">
+        <div class="fix-conteiner -flex-center">
+            <a href="#h1" class="footer__link -color-text -head -link">К заданию!</a>
+            <a href="https://vk.com/f0xer" class="footer__link"><img class="footer__img" src="img/vk.svg"></a>
+        </div>
+    </footer>
+</body>
+</html>

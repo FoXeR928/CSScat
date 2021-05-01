@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+.body{
+    margin: 0;
+    color: #009999;
+    font-family: 'Russo One', sans-serif;
+    background: #06266F;
+}
+.fix-conteiner{
+    width: 960px;
+    margin: 0 auto;
+}
+.-background{
+    padding: 20px;
+    background: #1240AB;
+}
+
+.-color-text{
+    color: #06266F;
+    text-decoration: none;
+}
+.-button{
+    padding: 10px 20px;
+    background: #00CC00;
+    border: none;
+    color: #06266F;
+    font-family: 'Russo One', sans-serif;
+    outline: none;
+}
+.-button:hover{
+    background-color: #39E639;
+}
+.-button:active{
+    background-color: #008500;
+}
+.-input{
+    color: #06266F;
+    font-size: 12pt;
+    background: #33CCCC;
+    font-family: 'Russo One', sans-serif;
+    border: none;
+    outline: none;
+    resize: none;
+}
+.-input:focus{
+    border-bottom: 3px solid #FF7400;
+}
+.article-info__link{
+    position: relative;
+    left: 866px;
+    bottom: 20px;
+}
+.-h1{
+    font-size: 36px;
+    text-align: center;
+}
+.-flex-colum{
+    display: flex;
+    flex-direction: column;
+}
+.-flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.-flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.-flex-cat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.-padding{
+    padding-left: 30px;
+}
+.-color-input{
+    background-color: #009999;
+}
+.article-window__div{
+    width: 600px;
+    height: 600px;
+    background-color: #33CCCC;
+}
+.-margin-top{
+    margin-top: 60px;
+}
+.-margin{
+    margin: 20px 0;
+}
+.-head{
+    color: #009999;
+    font-size: 18pt;
+}
+.article-info__p{
+    transition: 1s;
+}
+.article-info__p:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.-cat{
+    width: 411px;
+    justify-self: flex-end;
+}
+.window-p{
+    font-size: 22pt;
+}
+#task3{
+    position: relative;
+}
+.p__span{
+    color: #FF7400;
+    font-size: 14pt;
+}
+.-link{
+    margin: 0 auto;
+}
+.footer__img{
+    width: 30px;
+}
